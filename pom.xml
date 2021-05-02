@@ -18,24 +18,19 @@
 	<build>
 		<finalName>discover-demo-app</finalName>
 	</build>
-	<properties>
-      		 <java.version>1.8</java.version>
-     		 <maven.compiler.source>1.8</maven.compiler.source>
-       		 <maven.compiler.target>1.8</maven.compiler.target>
-	</properties>
 	    <profiles>
 	<profile>
       <id>coverage-per-test</id>
       <build>
         <plugins>
-	  <plugin>
+        <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-compiler-plugin</artifactId>
-	    <configuration>
-                <source>11</source>
-                <target>11</target>
+            <configuration>
+                <source>1.6</source>
+                <target>1.6</target>
             </configuration>
-          </plugin>
+        </plugin>
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-surefire-plugin</artifactId>
@@ -62,7 +57,7 @@
       </dependencies>
     </profile>
 	</profiles>
-	
+
 	<repositories>
         <repository>
             <id>mqm-public</id>
@@ -76,5 +71,5 @@
             <url>http://mydtbld0051.hpeswlab.net:8081/nexus/content/repositories/mqm-public</url>
         </pluginRepository>
     </pluginRepositories>
-	
+
 </project>

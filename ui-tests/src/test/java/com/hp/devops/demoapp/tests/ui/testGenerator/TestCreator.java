@@ -167,7 +167,7 @@ public class TestCreator {
 
     public static int runIt(String testParameter) throws IOException, InterruptedException {
         Runtime rt = Runtime.getRuntime();
-        Process pr = rt.exec("C:/Java/Maven/apache-maven-3.2.2/bin/mvn.bat clean install -f ./ui-tests/pom.xml " + testParameter);
+        Process pr = rt.exec("mvn clean install -f ./ui-tests/pom.xml " + testParameter);
 
         String line = "";
         InputStream is = pr.getInputStream();

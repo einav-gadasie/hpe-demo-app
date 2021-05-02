@@ -19,7 +19,7 @@ public class CalcsTest {
 //yet another comment...
 	@Test
 	public void sum_test_A() {
-		assertEquals(3, Calcs.sum(1,5));
+		assertEquals(3, Calcs.sum(1,2));
 	}
 
 	@Test
@@ -59,7 +59,7 @@ public class CalcsTest {
 
 	@Test
 	public void neq_test_C_BrokenTest() {
-		assertTrue(Calcs.nonEqual(5, 5));
+		assertFalse(Calcs.nonEqual(5, 5));
 	}
 
 	@Test
