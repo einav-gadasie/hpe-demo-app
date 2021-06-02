@@ -18,8 +18,8 @@ import static org.junit.Assert.assertTrue;
 public class CalcsTest {
 //yet another comment...
 	@Test
-	public void sum_test_A() {
-		assertEquals(3, Calcs.sum(1,2));
+	public void sum_test_A_BrokenTest() {
+		assertEquals(3, Calcs.sum(1,5));
 	}
 
 	@Test
@@ -48,18 +48,18 @@ public class CalcsTest {
 	}
 
 	@Test
-	public void neq_test_A() {
+	public void neq_test_A_BrokenTest() {
 		assertTrue(Calcs.nonEqual(0, 1));
 	}
 //add comment
 	@Test
-	public void neq_test_B() {
+	public void neq_test_B_BrokenTest() {
 		assertTrue(Calcs.nonEqual(-1, 0));
 	}
 
 	@Test
 	public void neq_test_C_BrokenTest() {
-		assertFalse(Calcs.nonEqual(5, 5));
+		assertTrue(Calcs.nonEqual(5, 5));
 	}
 
 	@Test
