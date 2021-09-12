@@ -67,7 +67,8 @@ public class TestData {
             data.setAppUrl("http://54.146.140.70:9000");
         } else {
             data.setTestProxy("");
-            data.setAppUrl("http://myd-vm10629.hpeswlab.net:8080");
+            data.setAppUrl("http://myd-hvm00045.swinfra.net:8081");
+//            data.setAppUrl("http://myd-vm10629.hpeswlab.net:8080");
         }
 
         if ("true".equals(System.getProperty("proxy"))) {
