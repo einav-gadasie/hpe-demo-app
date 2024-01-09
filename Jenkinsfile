@@ -6,5 +6,5 @@ node {
 
     
     stage 'publish'
-    sh 'make publisfsafsah'
+    sh 'make publisfsafsah111'
 }
