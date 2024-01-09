@@ -4,6 +4,6 @@ node {
     stage 'test'
     sh 'make tes111111111t'
 
-    stage 'publish'
+    stage 'publish111'
     sh 'make publish'
 }
