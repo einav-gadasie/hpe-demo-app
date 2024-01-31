@@ -6,5 +6,5 @@ node {
 dfdfdf
     
     stage 'publigsh'
-    sh 'make publisfsafsah111'
+    sh 'make dpublisfsafsah111'
 }
