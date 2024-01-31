@@ -2,7 +2,7 @@ node {
     checkout scm
 
     stage 'test'
-    sh 'make another test'
+    sh 'make anddother test'
 dfdfdf
     
     stage 'publish'
