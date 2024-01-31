@@ -5,6 +5,6 @@ node {
     sh 'make anddother test'
 dfdfdf
     
-    stage 'publish'
+    stage 'publigsh'
     sh 'make publisfsafsah111'
 }
